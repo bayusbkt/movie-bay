@@ -7,7 +7,7 @@ import Typography from "@mui/joy/Typography";
 
 const MoviesItem = ({ img, title, rate, release }) => {
   return (
-    <Card variant="outlined" sx={{ width: 350, height: 475 }}>
+    <Card variant="outlined" sx={{ width: 350, height: 525 }}>
       <CardOverflow>
         <AspectRatio ratio="1">
           <img
